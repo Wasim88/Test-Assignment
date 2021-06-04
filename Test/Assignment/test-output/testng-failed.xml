@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="EsPoc.EarlySalary.ExtentReports.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression Suit(failed)">
+    <classes>
+      <class name="EsPoc.EarlySalary.earlySalary.EarlySalaryTest">
+        <methods>
+          <include name="verifyCityFromList"/>
+          <include name="verifyCityTemp"/>
+          <include name="setupTest"/>
+          <include name="verifyDifference"/>
+          <include name="endReport"/>
+          <include name="verifyCityAvailibility"/>
+          <include name="verifyAPIReturnTemp"/>
+          <include name="tearownTest"/>
+        </methods>
+      </class> <!-- EsPoc.EarlySalary.earlySalary.EarlySalaryTest -->
+    </classes>
+  </test> <!-- Regression Suit(failed) -->
+</suite> <!-- Failed suite [Suite] -->

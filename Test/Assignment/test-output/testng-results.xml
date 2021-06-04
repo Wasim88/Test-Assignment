@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62114" started-at="2021-06-04T04:39:32Z" finished-at="2021-06-04T04:40:34Z">
+    <groups>
+    </groups>
+    <test name="Test Suit" duration-ms="62114" started-at="2021-06-04T04:39:32Z" finished-at="2021-06-04T04:40:34Z">
+      <class name="Test.Assignment.Test.AssignmentTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="setupTest" is-config="true" duration-ms="51799" started-at="2021-06-04T04:38:40Z" finished-at="2021-06-04T04:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="verifyCityFromList()[pri:1, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="verifyCityFromList" duration-ms="49445" started-at="2021-06-04T04:39:32Z" finished-at="2021-06-04T04:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityFromList -->
+        <test-method status="PASS" signature="verifyCityAvailibility()[pri:2, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="verifyCityAvailibility" duration-ms="4562" started-at="2021-06-04T04:40:22Z" finished-at="2021-06-04T04:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityAvailibility -->
+        <test-method status="PASS" signature="verifyCityTemp()[pri:3, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="verifyCityTemp" duration-ms="2179" started-at="2021-06-04T04:40:26Z" finished-at="2021-06-04T04:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityTemp -->
+        <test-method status="PASS" signature="verifyAPIReturnTemp()[pri:4, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="verifyAPIReturnTemp" duration-ms="5856" started-at="2021-06-04T04:40:28Z" finished-at="2021-06-04T04:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAPIReturnTemp -->
+        <test-method status="PASS" signature="verifyDifference()[pri:5, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="verifyDifference" duration-ms="1" started-at="2021-06-04T04:40:34Z" finished-at="2021-06-04T04:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDifference -->
+        <test-method status="PASS" signature="tearownTest()[pri:0, instance:Test.Assignment.Test.AssignmentTest@192d3247]" name="tearownTest" is-config="true" duration-ms="2260" started-at="2021-06-04T04:40:34Z" finished-at="2021-06-04T04:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearownTest -->
+      </class> <!-- Test.Assignment.Test.AssignmentTest -->
+    </test> <!-- Test Suit -->
+  </suite> <!-- Suite -->
+</testng-results>
